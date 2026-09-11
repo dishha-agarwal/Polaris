@@ -1,0 +1,144 @@
+[
+  {
+    "id": "NCPOR-PUB-2023",
+    "type": "paper",
+    "title": "Teleconnections between Antarctic Sea Ice and ISMR",
+    "content": "Antarctic sea-ice variability demonstrates significant teleconnections with the Indian Summer Monsoon Rainfall (ISMR). Anomalous sea-ice retreat in the Bellingshausen-Amundsen Seas correlates with heightened ISMR.",
+    "metadata": {
+      "year": "2023",
+      "author": "NCPOR Climate Team",
+      "url": "https://ncpor.res.in/publications/2023-ismr-teleconnections",
+      "related_ids": "REGION-ANT, TOPIC-CLI, DATA-8492"
+    }
+  },
+  {
+    "id": "DATA-8492",
+    "type": "dataset",
+    "title": "Southern Ocean Sea Ice Extent (2010-2023)",
+    "content": "Dataset containing daily observations of sea ice extent in the Southern Ocean, derived from satellite microwave radiometer data.",
+    "metadata": {
+      "year": "2023",
+      "source": "MoES Data Portal",
+      "url": "https://incois.gov.in/data/southern-ocean-sea-ice",
+      "related_ids": "REGION-SO, TOPIC-ICE, EXP-41-SEC-3"
+    }
+  },
+  {
+    "id": "EXP-41-SEC-3",
+    "type": "expedition",
+    "title": "Indian Antarctic Expedition 41",
+    "content": "The 41st ISEA successfully extracted ice cores from the central Dronning Maud Land. Observations highlighted abnormal surface melting events in January 2022.",
+    "metadata": {
+      "year": "2022",
+      "url": "https://ncpor.res.in/expeditions/isea-41-report",
+      "related_ids": "REGION-ANT, STAT-BHA, STAT-MAI"
+    }
+  },
+  {
+    "id": "HIMALAYA-OBS-01",
+    "type": "paper",
+    "title": "Glacial Retreat in the Himalayas",
+    "content": "Observation of the Third Pole (Himalayas) shows an accelerated glacial retreat of 15% over the last decade. This affects the downstream hydrology of major Indian rivers.",
+    "metadata": {
+      "year": "2024",
+      "author": "Third Pole Research Group",
+      "url": "https://moes.gov.in/research/himalayan-glacial-retreat",
+      "related_ids": "REGION-HIM, TOPIC-GLA, STAT-HIM"
+    }
+  },
+  {
+    "id": "STAT-BHA",
+    "type": "station",
+    "title": "Bharati Station",
+    "content": "India's third Antarctic research facility.",
+    "metadata": {
+      "year": "2012",
+      "related_ids": "REGION-ANT"
+    }
+  },
+  {
+    "id": "STAT-MAI",
+    "type": "station",
+    "title": "Maitri Station",
+    "content": "India's second permanent research station in Antarctica.",
+    "metadata": {
+      "year": "1989",
+      "related_ids": "REGION-ANT"
+    }
+  },
+  {
+    "id": "STAT-HIM",
+    "type": "station",
+    "title": "Himadri Station",
+    "content": "India's first research station located at the International Arctic Research base.",
+    "metadata": {
+      "year": "2008",
+      "related_ids": "REGION-ARC"
+    }
+  },
+  {
+    "id": "REGION-ANT",
+    "type": "region",
+    "title": "Antarctica",
+    "content": "Earth's southernmost continent.",
+    "metadata": {}
+  },
+  {
+    "id": "REGION-ARC",
+    "type": "region",
+    "title": "Arctic",
+    "content": "Polar region located at the northernmost part of Earth.",
+    "metadata": {}
+  },
+  {
+    "id": "REGION-HIM",
+    "type": "region",
+    "title": "Himalayas",
+    "content": "The Third Pole, mountain range in Asia.",
+    "metadata": {}
+  },
+  {
+    "id": "REGION-SO",
+    "type": "region",
+    "title": "Southern Ocean",
+    "content": "Ocean surrounding Antarctica.",
+    "metadata": {
+      "related_ids": "REGION-ANT"
+    }
+  },
+  {
+    "id": "TOPIC-CLI",
+    "type": "topic",
+    "title": "Climate Change",
+    "content": "Long-term shifts in temperatures and weather patterns.",
+    "metadata": {}
+  },
+  {
+    "id": "TOPIC-ICE",
+    "type": "topic",
+    "title": "Sea Ice Dynamics",
+    "content": "The study of the formation, movement, and melting of sea ice.",
+    "metadata": {
+      "related_ids": "TOPIC-CLI"
+    }
+  },
+  {
+    "id": "TOPIC-GLA",
+    "type": "topic",
+    "title": "Glaciology",
+    "content": "The study of glaciers, or more generally ice and natural phenomena that involve ice.",
+    "metadata": {
+      "related_ids": "TOPIC-CLI"
+    }
+  },
+  {
+    "id": "MEDIA-VID-01",
+    "type": "media",
+    "title": "Ice Core Extraction Process",
+    "content": "Video documenting the process of extracting ice cores.",
+    "metadata": {
+      "url": "https://ncpor.res.in/media/vid-01",
+      "related_ids": "EXP-41-SEC-3, TOPIC-GLA"
+    }
+  }
+]
