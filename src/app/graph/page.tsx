@@ -31,7 +31,7 @@ const TYPE_ICONS: Record<string, any> = {
 };
 
 export default function KnowledgeGraphPage() {
-  const [graphData, setGraphData] = useState<any>({ nodes: [], edges: [] });
+  const [graphData, setGraphData] = useState<any>({ nodes: [], links: [] });
   const [selectedNode, setSelectedNode] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
@@ -46,7 +46,10 @@ export default function KnowledgeGraphPage() {
       const url = type ? getApiUrl(`/api/knowledge-graph?type=${type}`) : getApiUrl('/api/knowledge-graph');
       const res = await fetch(url);
       const data = await res.json();
-      setGraphData(data);
+      setGraphData({
+        nodes: data.nodes || [],
+        links: data.edges || [] // ForceGraph2D strictly requires 'links', not 'edges'
+      });
     } catch (error) {
       console.error("Error fetching graph data:", error);
     } finally {
