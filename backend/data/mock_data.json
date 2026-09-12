@@ -7,7 +7,7 @@
     "metadata": {
       "year": "2023",
       "author": "NCPOR Climate Team",
-      "url": "https://ncpor.res.in/publications/2023-ismr-teleconnections",
+      "url": "https://ncpor.res.in",
       "related_ids": "REGION-ANT, TOPIC-CLI, DATA-8492"
     }
   },
@@ -19,7 +19,7 @@
     "metadata": {
       "year": "2023",
       "source": "MoES Data Portal",
-      "url": "https://incois.gov.in/data/southern-ocean-sea-ice",
+      "url": "https://ncpor.res.in",
       "related_ids": "REGION-SO, TOPIC-ICE, EXP-41-SEC-3"
     }
   },
@@ -30,7 +30,7 @@
     "content": "The 41st ISEA successfully extracted ice cores from the central Dronning Maud Land. Observations highlighted abnormal surface melting events in January 2022.",
     "metadata": {
       "year": "2022",
-      "url": "https://ncpor.res.in/expeditions/isea-41-report",
+      "url": "https://ncpor.res.in",
       "related_ids": "REGION-ANT, STAT-BHA, STAT-MAI"
     }
   },
@@ -42,7 +42,7 @@
     "metadata": {
       "year": "2024",
       "author": "Third Pole Research Group",
-      "url": "https://moes.gov.in/research/himalayan-glacial-retreat",
+      "url": "https://ncpor.res.in",
       "related_ids": "REGION-HIM, TOPIC-GLA, STAT-HIM"
     }
   },
@@ -137,7 +137,7 @@
     "title": "Ice Core Extraction Process",
     "content": "Video documenting the process of extracting ice cores.",
     "metadata": {
-      "url": "https://ncpor.res.in/media/vid-01",
+      "url": "https://ncpor.res.in",
       "related_ids": "EXP-41-SEC-3, TOPIC-GLA"
     }
   }

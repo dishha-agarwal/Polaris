@@ -23,10 +23,20 @@ export default function KnowledgeCard({ id, type, title, metadata }: KnowledgeCa
     video: 'text-aurora-purple bg-aurora-purple/10 border-aurora-purple/20',
   }[type] || 'text-polar-400 bg-polar-400/10 border-polar-400/20';
 
-  const url = metadata.url || "#";
+  let url = metadata.url || "#";
+  let target: string | undefined = url !== "#" ? "_blank" : undefined;
+
+  // Instead of opening mock external URLs, route the user to the internal detail pages!
+  if (['dataset', 'media', 'expedition'].includes(type) && id) {
+    url = `/${type === 'media' ? 'media' : type + 's'}/${id}`;
+    target = undefined;
+  } else if (id) {
+    url = `/graph?id=${id}`;
+    target = undefined;
+  }
 
   return (
-    <Link href={url} target={url !== "#" ? "_blank" : undefined} className="block group">
+    <Link href={url} target={target} className="block group">
       <div className="glass-panel-hover rounded-xl p-5 flex flex-col gap-4">
         <div className="flex items-start gap-4">
           <div className={`p-3 rounded-lg border flex-shrink-0 transition-colors ${colors}`}>
